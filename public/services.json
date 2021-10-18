@@ -1,0 +1,44 @@
+[
+    {
+        "key": "f1f4f2f1",
+        "name": "Ultrasonogram",
+        "visit": "$150",
+        "desc": "Medical ultrasound includes diagnostic imaging techniques, as well as therapeutic applications of ultrasound.",
+        "img": "https://i.ibb.co/fvJ6mWt/download.jpg"
+    },
+    {
+        "key": "f1f4f2f3",
+        "name": "An electrocardiogram (ECG)",
+        "visit": "$130",
+        "desc": "A cardiac stress test is a cardiological test that measures the heart's ability to respond to external stress in a controlled clinical environment",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS06y4M3ezEH3UMBcokrSxfM01qrrTr_0cpow&usqp=CAU"
+    },
+    {
+        "key": "f1f4f2f4",
+        "name": "Blood Tests | NHLBI, NIH",
+        "price": "$190",
+        "desc": "Your doctor will typically recommend that you get routine blood work at least once a year, around the same time as your yearly physical.",
+        "img": "https://i.ibb.co/d0VtsyD/breakthrough-new-blood-test-detects-positive-covid-19-result-in-20-minutes-337594.jpg"
+    },
+    {
+        "key": "f1f4f2f5",
+        "name": "Diabetes Tests",
+        "price": "$170",
+        "desc": "You’ll need to get your blood sugar tested to find out for sure if you have prediabetes or type 1, type 2, or gestational diabetes. Testing is simple, and results are usually available quickly.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTehIAgZ0JCciWC9EAUWpkR198bdu0f4XozP_3yk_x91GuKgsgFg5gu1bYptuiNu2JXGHE&usqp=CAU"
+    },
+    {
+        "key": "f1f4f2f6",
+        "name": "Blood pressure test - NHS",
+        "price": "$140",
+        "desc": "Blood pressure is the term used to describe the strength with which your blood pushes on the sides of your arteries as it's pumped around your body.",
+        "img": "https://3.imimg.com/data3/OA/EE/GLADMIN-23497/blood-pressure-machines-500x500.jpg"
+    },
+    {
+        "key": "f1f4f2f7",
+        "name": "Java (Programming)",
+        "price": "$195",
+        "desc": "An X-ray is an imaging test that uses small amounts of radiation to produce pictures of the organs, tissues, and bones of the body. When focused on the chest, it can help spot abnormalities",
+        "img": "https://5.imimg.com/data5/NK/FW/GLADMIN-64414446/digital-x-ray-testing-services-500x500.png"
+    }
+]
