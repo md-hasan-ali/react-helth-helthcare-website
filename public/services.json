@@ -2,14 +2,14 @@
     {
         "key": "f1f4f2f1",
         "name": "Ultrasonogram",
-        "visit": "$150",
-        "desc": "Medical ultrasound includes diagnostic imaging techniques, as well as therapeutic applications of ultrasound.",
+        "price": "$150",
+        "desc": "Medical ultrasound includes diagnostic imaging techniques, as well as therapeutic applications of ultrasound.Ultrasonogram definition at Dictionary.com,",
         "img": "https://i.ibb.co/fvJ6mWt/download.jpg"
     },
     {
         "key": "f1f4f2f3",
-        "name": "An electrocardiogram (ECG)",
-        "visit": "$130",
+        "name": "electrocardiogram (ECG)",
+        "price": "$130",
         "desc": "A cardiac stress test is a cardiological test that measures the heart's ability to respond to external stress in a controlled clinical environment",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS06y4M3ezEH3UMBcokrSxfM01qrrTr_0cpow&usqp=CAU"
     },
@@ -31,7 +31,7 @@
         "key": "f1f4f2f6",
         "name": "Blood pressure test - NHS",
         "price": "$140",
-        "desc": "Blood pressure is the term used to describe the strength with which your blood pushes on the sides of your arteries as it's pumped around your body.",
+        "desc": "Blood pressure is the term used to describe the strength with which your blood pushes on the sides of your arteries as it's pumped around your body.Taking your pulse versus checking your blood pressure",
         "img": "https://3.imimg.com/data3/OA/EE/GLADMIN-23497/blood-pressure-machines-500x500.jpg"
     },
     {

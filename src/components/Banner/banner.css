@@ -34,3 +34,15 @@
     padding: 10px;
     border-radius: 5px;
 }
+
+/* Responsive banner  */
+
+@media only screen and (max-width:480px) {
+    .banner-area {
+        padding:20px 0;
+        height: 110vh;
+    }
+    .banner-img img {
+        margin-bottom: 20px;
+    }
+}
