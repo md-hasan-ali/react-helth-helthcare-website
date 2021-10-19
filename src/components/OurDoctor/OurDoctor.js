@@ -18,29 +18,33 @@ const OurDoctor = () => {
                     <div className="col-md-3">
                         <div className="single-doctor">
                             <img src={doctor1} alt="" />
-                            <h4>Name : Jhon Horin</h4>
+                            <h4 className='pt-2'>Name : Jhon Horin</h4>
                             <p>Designation : MBBS</p>
+                            <button className='btn btn-success'>Contact Me!</button>
                         </div>
                     </div>
                     <div className="col-md-3">
                         <div className="single-doctor">
                             <img src={doctor2} alt="" />
-                            <h4>Name : Jhon Tiger</h4>
+                            <h4 className='pt-2'>Name : Jhon Tiger</h4>
                             <p>Designation : MBBS</p>
+                            <button className='btn btn-success'>Contact Me!</button>
                         </div>
                     </div>
                     <div className="col-md-3">
                         <div className="single-doctor">
                             <img src={doctor3} alt="" />
-                            <h4>Name : Jhon Lion</h4>
+                            <h4 className='pt-2'>Name : Jhon Lion</h4>
                             <p>Designation : FCPS</p>
+                            <button className='btn btn-success'>Contact Me!</button>
                         </div>
                     </div>
                     <div className="col-md-3">
                         <div className="single-doctor">
                             <img src={doctor4} alt="" />
-                            <h4>Name : Jhon Bear</h4>
+                            <h4 className='pt-2'>Name : Jhon Bear</h4>
                             <p>Designation : FRCS</p>
+                            <button className='btn btn-success'>Contact Me!</button>
                         </div>
                     </div>
                 </div>
