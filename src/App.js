@@ -11,6 +11,7 @@ import Login from './components/Login/Login';
 import AuthProvider from './components/AuthProvider/AuthProvider';
 import ContactUs from './components/ContactUs/ContactUs';
 import AboutUs from './components/AboutUs/AboutUs';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 // App component and all Route
 function App() {
@@ -29,9 +30,9 @@ function App() {
               <Home></Home>
             </Route>
 
-            <Route path='/service/:seviceId'>
+            <PrivateRoute path='/service/:seviceId'>
               <ServiceDetail></ServiceDetail>
-            </Route>
+            </PrivateRoute>
 
             <Route path='/login'>
               <Login></Login>
