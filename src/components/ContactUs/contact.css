@@ -1,0 +1,48 @@
+.contact-area {
+    padding: 50px 0;
+    background: #122033;
+    color: #fff;
+}
+
+.contact-area input,textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+}
+.contact-img img {
+    width: 100%;
+    border: 1px dashed #fff;
+    padding: 5px;
+    border-radius: 5px;
+    height: 385px;
+    margin-top:22px;
+}
+.title {
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.title:before {
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    content: '';
+    background: #fff;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title:after {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: red;
+    bottom: -6px;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}

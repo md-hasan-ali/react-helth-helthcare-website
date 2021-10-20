@@ -2,6 +2,7 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './footer.css'
+import footer from '../../images/9.png'
 
 const Footer = () => {
     return (
@@ -14,7 +15,7 @@ const Footer = () => {
                         <address>570/360 House,Uttra, Dhaka 1241</address>
                     </Col>
                     <Col>
-                        <h3>Social icon</h3>
+                        <img src={footer} alt="" />
                     </Col>
                     <Col>
                         <div className='footer-menu'>

@@ -5,7 +5,6 @@ import './services.css'
 
 const Servicess = () => {
     const [services, setServices] = useState([]);
-    console.log(services)
     useEffect(() => {
         fetch('./services.json')
             .then(res => res.json())
@@ -14,7 +13,7 @@ const Servicess = () => {
     return (
         <div className='services-area'>
             <Container className='py-5'>
-                <h2 className='text-center pb-4'>Our Servicess</h2>
+                <h2 className='text-center pb-4'>Our <span className='text-style'>Servicess</span></h2>
                 <Row xs={1} md={3} className="g-4">
                     {
                         services?.map(service => <Service

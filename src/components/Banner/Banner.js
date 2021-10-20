@@ -1,8 +1,10 @@
+// Adding necessary file 
 import React from 'react';
 import { Col, Container, Row, Button } from 'react-bootstrap';
 import bannerIMg from '../../images/banner-images.png'
 import './banner.css'
 
+// Banner component 
 const Banner = () => {
     return (
         <div className='banner-area'>

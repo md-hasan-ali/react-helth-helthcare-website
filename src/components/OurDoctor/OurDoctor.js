@@ -11,7 +11,7 @@ const OurDoctor = () => {
         <div className='doctor-area py-5'>
             <div className="container">
                 <div className='text-center pb-4'>
-                    <h2>Our Doctors</h2>
+                    <h2>Our <span className='text-style'>Doctors</span></h2>
                     <p>We Provide best services</p>
                 </div>
                 <div className="row">

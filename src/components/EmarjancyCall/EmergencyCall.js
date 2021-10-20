@@ -1,7 +1,9 @@
+// Adding necessary file 
 import React from 'react';
 import './emergency.css'
 import img from '../../images/doctor3-removebg-preview.png'
 
+// Emergency call component 
 const EmergencyCall = () => {
     return (
         <div className='emergency-call'>
@@ -10,7 +12,7 @@ const EmergencyCall = () => {
                 <div className="row">
                     <div className="col-md-7">
                         <div className="emergency-content text-center mt-5">
-                            <h4><i class="fas fa-blender-phone"></i></h4>
+                            <h4><i className="fas fa-blender-phone"></i></h4>
                             <span>YOU WANT TO DISCUSS WITH OUR DOCTOR</span>
                             <h2>Call Us Our Doctor For Any Emergency Help</h2>
                             <div className="TelePhone">
