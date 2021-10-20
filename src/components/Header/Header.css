@@ -1,4 +1,8 @@
+/* Navbar design  */
 .nav-link {
     color: #fff;
     font-size: 18px;
+}
+nav.navbar {
+    padding: 13px 0;
 }

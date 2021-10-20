@@ -1,3 +1,4 @@
+/* Footer section design  */
 .footer {
     background-color: #000;
     color: #fff;
@@ -11,4 +12,15 @@
 }
 .footer img {
     width: 140px;
+}
+
+/* footer media query  */
+
+@media only screen and (max-width:480px) {
+    .footer {
+        text-align: center;
+    }
+    .footer img {
+        margin:30px 0;
+    }
 }

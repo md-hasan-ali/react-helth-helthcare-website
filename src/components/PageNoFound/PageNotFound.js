@@ -1,9 +1,11 @@
+// adding necessary file 
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 import errorImg from '../../images/notfound.png'
 import './notfound.css'
 
+// PageNotFound component 
 const PageNotFound = () => {
     const history = useHistory();
 

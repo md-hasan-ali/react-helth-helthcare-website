@@ -1,9 +1,11 @@
+// Adding necessary file 
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './footer.css'
 import footer from '../../images/9.png'
 
+// Footer Component 
 const Footer = () => {
     return (
         <div className='footer'>

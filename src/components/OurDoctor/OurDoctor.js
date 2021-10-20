@@ -1,3 +1,4 @@
+// adding necessary file 
 import React from 'react';
 import './doctor.css'
 import doctor1 from '../../images/doctor1.jpg';
@@ -5,7 +6,7 @@ import doctor2 from '../../images/doctor2.jpg'
 import doctor3 from '../../images/doctor3.jpg'
 import doctor4 from '../../images/doctor4.jpg'
 
-
+// OurDoctor component 
 const OurDoctor = () => {
     return (
         <div className='doctor-area py-5'>

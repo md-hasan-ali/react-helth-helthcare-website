@@ -30,6 +30,10 @@ function App() {
               <Home></Home>
             </Route>
 
+            {/* <Route path='/service/:seviceId'>
+              <ServiceDetail></ServiceDetail>
+            </Route> */}
+
             <PrivateRoute path='/service/:seviceId'>
               <ServiceDetail></ServiceDetail>
             </PrivateRoute>

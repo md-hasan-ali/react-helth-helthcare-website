@@ -1,8 +1,10 @@
+// adding necessary file 
 import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import Service from '../Service/Service';
 import './services.css'
 
+// Servicess component 
 const Servicess = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {

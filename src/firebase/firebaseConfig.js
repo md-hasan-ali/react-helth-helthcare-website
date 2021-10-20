@@ -1,3 +1,4 @@
+// firebase config file 
 const firebaseConfig = {
     apiKey: "AIzaSyCn3IEsOfHM75IDFfIAKYsa40we7xHPE_s",
     authDomain: "react-firebase-authentic-45650.firebaseapp.com",

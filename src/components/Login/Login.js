@@ -45,9 +45,9 @@ const Login = () => {
                         <h2 className='text-white pb-3'>Please {isLogedIn ? 'Login' : 'Register'}</h2>
                         <form onSubmit={handlesubmit}>
                             {!isLogedIn && <div className="row mb-3">
-                                <label htmlFor="inputEmail" className="col-sm-2 col-form-label">Name</label>
+                                <label htmlFor="inputName" className="col-sm-2 col-form-label">Name</label>
                                 <div className="col-sm-10">
-                                    <input onBlur={handleName} type="text" className="form-control" required />
+                                    <input onBlur={handleName} type="text" className="form-control" id='inputName' required />
                                 </div>
                             </div>
                             }

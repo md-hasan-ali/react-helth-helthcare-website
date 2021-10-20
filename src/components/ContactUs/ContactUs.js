@@ -1,7 +1,9 @@
+// Adding necessary file
 import React from 'react';
 import contactImg from '../../images/contact-right.jpg'
 import './contact.css'
 
+// Contact us component 
 const ContactUs = () => {
     return (
         <div className='contact-area'>

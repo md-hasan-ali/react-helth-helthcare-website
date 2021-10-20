@@ -1,8 +1,10 @@
+// Adding necessary file
 import React from 'react';
 import { Button, Card, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './service.css'
 
+// Service component 
 const Service = (props) => {
     const { key, img, name, desc, price } = props.service;
     return (

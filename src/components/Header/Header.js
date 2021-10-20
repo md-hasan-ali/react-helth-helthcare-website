@@ -12,7 +12,7 @@ const Header = () => {
         <>
             <Navbar collapseOnSelect expand="lg" sticky="top" bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home">AllFa</Navbar.Brand>
+                    <Navbar.Brand href="#home">AllFa HealthCare</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse className="justify-content-end">
                         <Nav.Link as={Link} to="/home">Home</Nav.Link>
@@ -21,12 +21,12 @@ const Header = () => {
 
                         {user.displayName ?
                             <div>
-                                <a onClick={logOut} href="/">LogOut</a>
+                                <button className='btn btn-danger me-2' onClick={logOut} href="/">LogOut</button>
                                 <Navbar.Text className='text-white'>
                                     Signed in as: <span>{user.displayName}</span>
                                 </Navbar.Text>
                             </div> :
-                            <Nav.Link as={Link} to="/login">Login</Nav.Link>
+                            <Nav.Link className='btn btn-danger me-2' as={Link} to="/login">Login</Nav.Link>
                         }
 
                     </Navbar.Collapse>
