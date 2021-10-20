@@ -1,0 +1,10 @@
+.serviceDetails.pb-5 {
+    background: #122033;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.serviceDetails img {
+    width: 100%;
+    margin-bottom: 20px;
+}
