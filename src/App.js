@@ -30,7 +30,6 @@ function App() {
               <Home></Home>
             </Route>
 
-
             <PrivateRoute path='/service/:seviceId'>
               <ServiceDetail></ServiceDetail>
             </PrivateRoute>
